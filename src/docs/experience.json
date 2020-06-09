@@ -1,0 +1,27 @@
+{
+  "Experience": [{
+    "title": "Database Programming Intern",
+    "workplace": "George Brown College",
+    "location": "Toronto, Ontario",
+    "duration": "June 2018 – Present",
+    "points": [
+      "Solely developed student awards database system for the Financial Aid Office using MS Access, VBA, SQL and Excel",
+      "Designed VBA application to parse database entries and generate written award information posted on awards website",
+      "Created a front-end interface using MS Access Forms and MySQL that allows for making reports and generating awards",
+      "Wrote scripts in VBA to process thousands of lines of multiple excel files resulting in greater office productivity/efficiency",
+      "Wrote Python scripts to process and graph college enrollment information completing a month’s task in one week"
+    ]
+  },
+    {
+      "title": "Dragon Boat Team Executive",
+      "workplace": "George Brown College",
+      "location": "Toronto, Ontario",
+      "duration": "August 2019 – Present",
+      "points": [
+        "Volunteer Executive responsible for planning events and managing budget for George Brown College Dragon Boat Team",
+        "Planned and coordinated bake sale and Christmas party raising over $400 for use for team funds",
+        "Led team meetings regarding seasonal recruitment strategies, budget allocation and practice schedules"
+      ]
+    }
+  ]
+}

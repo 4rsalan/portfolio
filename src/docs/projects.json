@@ -1,0 +1,75 @@
+{
+  "Projects": [{
+    "name": "Route Tracking Mobile App",
+    "date": "December 2019",
+    "link": "https://github.com/4rsalan/Comp3074FinalProject",
+    "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+    "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+    "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+  },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    },
+    {
+      "name": "Route Tracking Mobile App",
+      "date": "December 2019",
+      "link": "https://github.com/4rsalan/Comp3074FinalProject",
+      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
+      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
+      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+    }
+  ]
+}
