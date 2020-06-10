@@ -54,6 +54,7 @@ export default function HideAppBar(props) {
                 <AppBar>
                     <Toolbar>
                         <Typography variant="h6">Arsalan Farooqui</Typography>
+                        <Button color="inherit" href="https://github.com/4rsalan">Resume</Button>
                         <Button color="inherit" href="https://github.com/4rsalan">Capstone</Button>
                         <Button color="inherit" href="https://github.com/4rsalan">Transcript</Button>
                         <Button color="inherit" href="https://github.com/4rsalan">Github</Button>

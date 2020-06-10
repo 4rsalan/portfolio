@@ -42,7 +42,7 @@ export default function ImgMediaCard(props) {
                                 {props.p2}
                             </li>
                             <li>
-                                {props.p2}
+                                {props.p3}
                             </li>
                         </ul>
                     </Typography>

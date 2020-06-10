@@ -8,68 +8,36 @@
     "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
   },
     {
-      "name": "Route Tracking Mobile App",
+      "name": "Gamer Lobby",
       "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+      "link": "https://agile-depths-93036.herokuapp.com/home",
+      "p1": "MEAN stack application that allows users to create players and games in online matching lobby simulation",
+      "p2": "Features user authentication, persistent data storage and the ability to add, modify and delete game and player info",
+      "p3": "Worked in two-person team, responsible for entire backend, routing, and writing and integrating services with front end"
     },
     {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+      "name": "Game Backlog Tracker",
+      "date": "September 2019",
+      "link": "https://github.com/4rsalan/gamelist/tree/navigation",
+      "p1": "React Native application that allows the user to manage their video game backlog on their mobile devices",
+      "p2": "Uses RAWG videogame API to asynchronously let users search for games and add them to a persistently stored list",
+      "p3": "Application features multi screen navigation with responsive design depending on user’s device dimensions"
     },
     {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+      "name": "Pokémon Randomizer App",
+      "date": "July 2019",
+      "link": "https://my-first-bucket-arsalan-devops.s3.amazonaws.com/index.html",
+      "p1": "Personal project that allows users to create players, enter a list of Pokémon, and randomize them between players",
+      "p2": "Written using React and hosted on Amazon AWS S3 services; uses CSS3 and Bootstrap for responsive page design",
+      "p3": "Utilizes React lifecycle methods to manipulate props and stateful values passed through component hierarchies"
     },
     {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
-    },
-    {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
-    },
-    {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
-    },
-    {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
-    },
-    {
-      "name": "Route Tracking Mobile App",
-      "date": "December 2019",
-      "link": "https://github.com/4rsalan/Comp3074FinalProject",
-      "p1": "Android application that lets users track routes, save them persistently, and rate and share them on social media",
-      "p2": "Application uses Google Maps API to track a user’s movement and stores the information in a MySQL database",
-      "p3": "Part of three-person team with designing application and implementing CRUD operations on routes "
+      "name": "Webex Quiz and Productivity Bot",
+      "date": "February 2018",
+      "link": "https://github.com/4rsalan/WebexBot",
+      "p1": "Chat productivity bot for Cisco’s Webex client to assist productivity for students/professors in a learning environment",
+      "p2": "Written in Python, lets users create/write quizzes, add resources and assist students within the chat room environment",
+      "p3": "led four-person team to 2nd place finish at Cisco Hackathon with creation of idea, design and task organization"
     }
   ]
 }

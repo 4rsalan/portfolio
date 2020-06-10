@@ -2,6 +2,7 @@ import React from 'react';
 import ImgCard from './components/ImgCard';
 import ExpCard from './components/ExpCard';
 import NavBar from './components/NavBar';
+import me from './img/me.jpg'
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import projects from './docs/projects';
@@ -41,7 +42,7 @@ const LoadExperience = data => {
 };
 
 const App = () => {
-    const info = LoadProjects(projects.Projects);
+    const proj = LoadProjects(projects.Projects);
     const exp = LoadExperience(experience.Experience);
 
     return (
@@ -52,9 +53,12 @@ const App = () => {
                 width="100%"
                 container="div"
                 display="flex"
-                flexDirection="row"
+                flexDirection="column"
                 justifyContent="center"
+                alignItems='center'
             >
+                <img alt={"Arsalan Farooqui"} style={avatarStyle} src={me}/>
+                <Typography variant="h2" component="h2">Arsalan Farooqui</Typography>
                 <Card style={cardStyle}>
                     <Typography variant='body2' component='body2' paragraph={true} display='block'>
                         Hey everyone! My name is Arsalan and I'm an aspiring Software Engineer. I'm a graduate of George Brown College's "T127 Computer Programmer Analyst" program
@@ -74,21 +78,22 @@ const App = () => {
             </Box>
         </div>
         <Divider />
-        <Typography variant="h2" component="h2" gutterBottom>Skills</Typography>
         <div style={boxStyle}>
             <Box
                 width="100%"
                 container="div"
                 display="flex"
-                flexDirection="row"
+                flexDirection="column"
                 justifyContent="center"
+                alignItems='center'
             >
-            <SimpleTable MyStyle={cardStyle}/>
+                <Typography variant="h2" component="h2" >Skills</Typography>
+                <SimpleTable MyStyle={cardStyle}/>
             </Box>
         </div>
         <Divider />
-        <Typography variant="h2" component="h2" gutterBottom>Projects</Typography>
         <div style={boxStyle}>
+            <Typography variant="h2" component="h2">Projects</Typography>
             <Box
                 width="100%"
                 container="div"
@@ -97,20 +102,22 @@ const App = () => {
                 flexWrap="wrap"
                 justifyContent="space-around"
                 align-content="space-between"
+                alignItems='center'
             >
-                {info}
+                {proj}
             </Box>
         </div>
         <Divider />
-        <Typography variant="h2" component="h2" gutterBottom>Experience</Typography>
             <div style={boxStyle}>
                 <Box
                     width="100%"
                     container="div"
                     display="flex"
-                    flexDirection="row"
+                    flexDirection="column"
                     justifyContent="center"
+                    alignItems='center'
                 >
+                    <Typography variant="h2" component="h2">Experience</Typography>
                     <Card style={expStyle}>
                         {exp}
                     </Card>
@@ -123,7 +130,10 @@ const App = () => {
 
 const boxStyle = {
     display: 'flex',
-    width: '100%'
+    width: '100%',
+    alignItems: 'center',
+    flexDirection:"column",
+    justifyContent:"center",
 };
 
 const cardStyle = {
@@ -139,6 +149,13 @@ const expStyle = {
     padding: '2%',
     marginTop: '1%',
     marginBottom: '1%',
+};
+
+const avatarStyle = {
+    borderRadius: '50%',
+    width: '100%',
+    height: 'auto',
+    maxWidth: '20%',
 };
 
 export default App;
