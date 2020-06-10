@@ -1,9 +1,11 @@
 import React from 'react';
 import ImgCard from './components/ImgCard';
+import ExpCard from './components/ExpCard';
 import NavBar from './components/NavBar';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import projects from './docs/projects';
+import experience from './docs/experience'
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import Card from '@material-ui/core/Card';
@@ -24,8 +26,23 @@ const LoadProjects = (data) =>{
     return projects;
 };
 
+const LoadExperience = data => {
+    const experience = [];
+    for (let i = 0; i < data.length; i++){
+        experience.push(<ExpCard
+        title={data[i].title}
+        workplace={data[i].workplace}
+        location={data[i].location}
+        duration={[data[i].location]}
+        points={data[i].points}
+        />)
+    }
+    return experience;
+};
+
 const App = () => {
     const info = LoadProjects(projects.Projects);
+    const exp = LoadExperience(experience.Experience);
 
     return (
     <div>
@@ -94,8 +111,8 @@ const App = () => {
                     flexDirection="row"
                     justifyContent="center"
                 >
-                    <Card style={cardStyle}>
-
+                    <Card style={expStyle}>
+                        {exp}
                     </Card>
                 </Box>
             </div>
@@ -110,8 +127,18 @@ const boxStyle = {
 };
 
 const cardStyle = {
-    width: '60%',
+    width: '80%',
     padding: '2%',
+    marginTop: '1%',
+    marginBottom: '1%',
+};
+
+const expStyle = {
+    display: 'flex',
+    width: '80%',
+    padding: '2%',
+    marginTop: '1%',
+    marginBottom: '1%',
 };
 
 export default App;
