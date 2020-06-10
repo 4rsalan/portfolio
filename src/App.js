@@ -156,6 +156,7 @@ const avatarStyle = {
     width: '100%',
     height: 'auto',
     maxWidth: '20%',
+    marginTop: '1%',
 };
 
 export default App;
