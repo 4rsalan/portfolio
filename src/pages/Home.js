@@ -3,6 +3,7 @@ import ImgCard from '../components/ImgCard';
 import ExpCard from '../components/ExpCard';
 import NavBar from '../components/NavBar';
 import me from '../img/me.jpg'
+import placeholder from '../img/placeholder.jpg';
 import Box from '@material-ui/core/Box';
 import projects from '../docs/projects';
 import experience from '../docs/experience'
@@ -21,7 +22,9 @@ const LoadProjects = (data) =>{
             link={data[i].link}
             p1={data[i].p1}
             p2={data[i].p2}
-            p3={data[i].p3}/>)
+            p3={data[i].p3}
+            image={placeholder}
+        />)
     }
     return projects;
 };
