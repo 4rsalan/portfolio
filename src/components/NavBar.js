@@ -5,11 +5,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
 import Slide from '@material-ui/core/Slide';
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Button from "@material-ui/core/Button";
+import {BrowserRouter as Router, Link} from "react-router-dom";
+
 
 function HideOnScroll(props) {
     const { children, window } = props;
@@ -54,9 +54,9 @@ export default function HideAppBar(props) {
                 <AppBar>
                     <Toolbar>
                         <Typography variant="h6">Arsalan Farooqui</Typography>
-                        <Button color="inherit" href="https://github.com/4rsalan">Resume</Button>
-                        <Button color="inherit" href="https://github.com/4rsalan">Capstone</Button>
-                        <Button color="inherit" href="https://github.com/4rsalan">Transcript</Button>
+                        <Link to="/portfolio" style={{ textDecoration: 'none' }}><Button color="inherit">Portfolio</Button></Link>
+                        <Link to="/capstone" style={{ textDecoration: 'none' }}><Button color="inherit">Capstone</Button></Link>
+                        <Link to="/transcript" style={{ textDecoration: 'none' }}><Button color="inherit">Transcript</Button></Link>
                         <Button color="inherit" href="https://github.com/4rsalan">Github</Button>
                     </Toolbar>
                 </AppBar>
