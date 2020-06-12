@@ -54,9 +54,9 @@ export default function HideAppBar(props) {
                 <AppBar>
                     <Toolbar>
                         <Typography variant="h6">Arsalan Farooqui</Typography>
-                        <Link to="/portfolio" style={{ textDecoration: 'none' }}><Button color="inherit">Portfolio</Button></Link>
-                        <Link to="/capstone" style={{ textDecoration: 'none' }}><Button color="inherit">Capstone</Button></Link>
-                        <Link to="/transcript" style={{ textDecoration: 'none' }}><Button color="inherit">Transcript</Button></Link>
+                        <Link to="/portfolio" style={linkStyle}><Button color="inherit">Portfolio</Button></Link>
+                        <Link to="/capstone" style={linkStyle}><Button color="inherit">Capstone</Button></Link>
+                        <Link to="/transcript" style={linkStyle}><Button color="inherit">Transcript</Button></Link>
                         <Button color="inherit" href="https://github.com/4rsalan">Github</Button>
                     </Toolbar>
                 </AppBar>
@@ -65,3 +65,8 @@ export default function HideAppBar(props) {
         </React.Fragment>
     );
 }
+
+const linkStyle = {
+    color: 'white',
+    textDecoration: 'none'
+};
